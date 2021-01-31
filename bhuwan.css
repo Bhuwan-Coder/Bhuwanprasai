@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:skyblue;
+    animation: h 8s linear infinite;
+}
+body{
+    background-color: #313131;
+}
+.container{
+    text-align: center;
+    color:white;
+    margin-top: 20%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.slider{
+    text-align: center;
+    color:orange;
+}
+.animate{
+    text-align: center;
+    color:mediumslateblue;
+    font-size: 22px;
+    animation: bhuwan 3s linear infinite;
+    
+}
+@keyframes bhuwan{
+    from{
+        letter-spacing: 5px;
+    }
+    to{
+        letter-spacing: 15px;
+    }
+   50%{
+       color: red;
+   }
+   85%{color: purple;}
+   100%{
+       color: #313131;
+   }
+
+}
+img{
+    border-radius: 50%;
+    height: 120px;
+    margin-left: 35%;
+    opacity: 0.5;
+    box-shadow: 1px 2px 4px 4px white;
+   
+}
+#bhu:hover{
+    opacity: 1;
+    
+}
+@keyframes h{
+    from{
+        font-size: 40px;
+    }
+    to {
+        color:gold;
+    }
+    
+}
+#bp{
+text-align: center;
+border-style: solid;
+padding: 25px;
+background-color: lightcoral;
+border-radius: 45px;
+box-shadow: 1px 1px 2px 2px silver;
+}
+b{
+    color: blue;
+    font-size: 20px;
+}
+#name{
+    text-align: center;
+    color:red;
+    font-style: italic;
+}
+#btn{
+    color:red;
+    width:65px;
+    background-color: lawngreen;
+}
